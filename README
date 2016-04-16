@@ -1,0 +1,15 @@
+SQL Database to Google Drive Sheet
+
+Follow the instructions to set up your OAuth Google App here:
+https://github.com/gimite/google-drive-ruby
+
+The first time you run the script you will have to confirm app usage, from then
+on it will automatically be authenticated using config.json
+
+Update the script with your MySQL connection parameters.
+
+Update the script with your desired query.
+
+Create the spreadsheet in your Google Drive and add its spreadsheet key.
+
+Update the script with the correct columns where you want to put your data.
