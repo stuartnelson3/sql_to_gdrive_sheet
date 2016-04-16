@@ -35,5 +35,5 @@ result.each_with_index do |row, idx|
   ws[ws_row, 2] = row["message"]
   ws[ws_row, 3] = row["created_at"].to_s
   ws[ws_row, 4] = row["name"]
+  ws.save
 end
-ws.save
